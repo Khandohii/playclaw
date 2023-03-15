@@ -1,0 +1,223 @@
+@media (max-width: 1023px){
+    /*---------------
+        Main styles
+    ---------------*/
+    .section_margin{
+        margin-top: 70px;
+    }
+
+    /*---------------
+        Header
+    ---------------*/
+
+    /*---------------
+        Main section
+    ---------------*/
+    .main_section{
+        padding-top: 167px;
+    }
+    .main_section .bng{
+        display: none;
+    }
+    .main_section .info{
+        width: 100%;
+
+        margin-right: 0;
+
+        text-align: center;
+    }
+    .main_section .info .main_title{
+        margin-top: 20px;
+    }
+    .main_section .info .note{
+        max-width: 509px;
+
+        margin: 10px auto 0;
+    }
+    .main_section .info .link_wrap{
+        display: block;
+
+        margin-top: 30px;
+    }
+    .main_section .info .link_wrap .link{
+        margin-right: 0;
+
+        text-align: center;
+    }
+    .main_section .img{
+        width: 100%;
+        max-width: 547px;
+
+        margin: 0 auto;
+    }
+
+    .gaming-tools .item{
+        overflow: visible;
+
+        margin-top: 70px;
+        padding: 0;
+    }
+    .gaming-tools .item:before{
+        display: none;
+    }
+    .gaming-tools .item .cont{
+        flex-direction: column;
+
+        align-items: stretch;
+        align-content: stretch;
+    }
+    .gaming-tools .item .info{
+        position: relative;
+
+        width: 81.595%;
+        max-width: 100%;
+
+        margin: 0;
+        padding: 70px 73px 130px 0;
+    }
+    .gaming-tools .item .info:before{
+        position: absolute;
+        top: 0;
+        left: -20px;
+        z-index: -1;
+
+        width: calc(100% + 20px);
+        height: 100%;
+
+        background: var(--dark-blue);
+
+        content: '';
+    }
+    .gaming-tools .item .img{
+        width: 100%;
+
+        margin-top: -60px;
+        margin-bottom: 0;
+        margin-left: auto;
+    }
+    .gaming-tools .item:nth-child(even) .info{
+        padding: 70px 0 130px 70px;
+    }
+    .gaming-tools .item:nth-child(even) .img{
+        margin-right: auto;
+        margin-left: 0;
+    }
+
+    .info-settings{
+        padding: 70px 0;
+    }
+    .info-settings .grid{
+        margin-bottom: -20px;
+        margin-left: -20px;
+    }
+    .info-settings .item{
+        width: calc(50% - 20px);
+
+        margin-bottom: 20px;
+        margin-left: 20px;
+        padding: 40px 34px;
+    }
+    .info-settings .link{
+        width: calc(50% - 20px);
+
+        margin-bottom: 20px;
+        margin-left: 20px;
+
+        align-self: center;
+    }
+
+    .applications .main_title{
+        margin-bottom: 30px;
+        padding: 0 47px;
+    }
+    .applications .grid{
+        margin-left: -20px;
+    }
+    .applications .grid .item{
+        width: calc(50% - 20px);
+
+        margin-left: 20px;
+    }
+    .applications .link{
+        width: calc(50% - 20px);
+
+        margin-left: 20px;
+
+        text-align: center;
+
+        align-self: center;
+    }
+
+
+    .support .support-line .grid .item{
+        width: calc(100% / 3 - 20px);
+
+        padding: 20px 8px;
+    }
+    .support .support-line .grid .item:nth-child(n + 4).disabled{
+        display: none;
+    }
+
+
+    .support-answer{
+        padding: 50px 0 70px;
+    }
+    .support-answer .grid .main_title{
+        width: 100%;
+        max-width: 100%;
+
+        margin-bottom: 30px;
+        padding-right: 50px;
+    }
+    .support-answer .grid .text_block{
+        width: 100%;
+        max-width: 100%;
+    }
+    .support-answer .link{
+        margin-top: 30px;
+    }
+
+
+    .premium .carousel .item .old_price{
+        margin-right: 5px;
+        padding: 0 5px;
+    }
+    .premium .carousel .item .desc{
+        padding: 0;
+    }
+
+
+    .payment{
+        margin-top: 82px;
+    }
+    .payment .info{
+        width: calc(100% - 134px);
+    }
+
+
+    .account .box .line_flex.flex_wrap{
+        flex-wrap: wrap;
+    }
+    .account .box .line_flex.flex_wrap .line_form{
+        width: calc(100% - 88px);
+
+        flex-grow: 0;
+    }
+    .account .box .line_flex.flex_wrap .line_form:first-child{
+        width: 100%;
+
+        margin-right: 0;
+    }
+    .account .box .line_flex.flex_wrap .submit{
+        width: 68px;
+    }
+
+
+    .error-page{
+        padding: 40px 0 70px;
+    }
+
+    /*---------------
+        Footer
+    ---------------*/
+}

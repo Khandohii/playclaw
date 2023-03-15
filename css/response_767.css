@@ -1,0 +1,214 @@
+@media (max-width: 767px){
+    /*---------------
+        Main styles
+    ---------------*/
+    .mob_menu_link{
+        display: flex;
+    }
+
+
+    .section_margin{
+        margin-top: 50px;
+    }
+
+
+    .main_title{
+        font-size: 35px;
+        line-height: 50px;
+    }
+
+
+    .main_tabs{
+        margin-bottom: 30px;
+    }
+
+    /*---------------
+        Header
+    ---------------*/
+    header{
+        padding: 20px 0;
+    }
+    header .cont{
+        align-items: center;
+        align-content: center;
+    }
+    header .logo{
+        padding: 0;
+    }
+    header .wrap_menu{
+        position: fixed;
+        top: 0;
+        right: -350px;
+        z-index: 110;
+
+        display: block;
+        overflow-y: auto;
+
+        width: 350px;
+        height: 100%;
+
+        padding: 20px;
+
+        background: var(--bg);
+
+        transition: .2s linear;
+    }
+    header .wrap_menu.visible{
+        right: 0;
+    }
+    header .wrap_menu .menu{
+        display: block;
+
+        margin-top: 50px;
+    }
+    header .menu .item{
+        padding: 0;
+
+        text-align: right;
+    }
+    header .menu .item + .item{
+        margin-top: 30px;
+        margin-left: 0;
+    }
+    header .menu .item a{
+        color: var(--dark-blue);
+    }
+    header .menu .item a:before{
+        display: none;
+    }
+    header .lang{
+        width: 100%;
+
+        margin-top: 30px;
+        margin-left: 0;
+    }
+    header .lang .select_wrap .nice-select .current{
+        padding-left: 20px;
+    }
+
+    /*---------------
+        Main section
+    ---------------*/
+    .gaming-tools .item .info{
+        position: relative;
+
+        width: 100%;
+        max-width: 100%;
+
+        margin: 0;
+        padding: 50px 0 118px;
+
+        text-align: center;
+    }
+    .gaming-tools .item:nth-child(even) .info{
+        padding: 50px 0 118px;
+    }
+    .gaming-tools .item .info:before{
+        width: calc(100% + 40px);
+    }
+    .gaming-tools .item .img{
+        margin-top: -88px;
+    }
+
+
+    .info-settings{
+        padding: 50px 0;
+    }
+    .info-settings .item{
+        min-height: 128px;
+
+        padding: 20px 22px;
+
+        clip-path: polygon(calc(100% - 15px) 0, 100% 15px, 100% 100%, 15px 100%, 0 calc(100% - 15px), 0 0);
+    }
+    .info-settings .item .title{
+        font-size: 18px;
+        line-height: 24px;
+    }
+
+    .applications .main_title{
+        padding: 0;
+    }
+    .applications .item .top .title{
+        width: calc(100% - 94px);
+
+        margin-left: 20px;
+
+        font-size: 18px;
+        line-height: 24px;
+    }
+
+
+    .support .main_title{
+        margin-bottom: 30px;
+    }
+    .support .support-line .title{
+        margin-bottom: 20px;
+
+        font-size: 18px;
+        line-height: 24px;
+    }
+    .support .support-line + .support-line{
+        margin-top: 50px;
+    }
+    .support .support-line .grid .item{
+        width: calc(100% / 2 - 20px);
+
+        font-size: 16px;
+
+        clip-path: polygon(calc(100% - 15px) 0, 100% 15px, 100% 100%, 15px 100%, 0 calc(100% - 15px), 0 0);
+    }
+    .support .support-line .grid .item:nth-child(n + 3).disabled{
+        display: none;
+    }
+
+
+    .support-answer{
+        padding: 50px 0;
+    }
+    .support-answer .grid .main_title{
+        padding: 0;
+    }
+
+    .premium .main_title{
+        margin-bottom: 30px;
+    }
+    .premium .note{
+        margin: 30px 0;
+    }
+
+
+    .article .main_title{
+        margin-bottom: 30px;
+    }
+
+
+    .account .grid .box{
+        width: 100%;
+    }
+
+
+    .error-page{
+        padding: 40px 0;
+    }
+    .error-page .info{
+        max-width: 100%;
+    }
+    .error-page .info .subTitle{
+        margin-top: 20px;
+    }
+
+    /*---------------
+        Footer
+    ---------------*/
+    footer .menu{
+        display: none;
+    }
+    footer .copy{
+        width: 100%;
+
+        margin-top: 30px;
+
+        text-align: center;
+    }
+}

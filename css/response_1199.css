@@ -1,0 +1,57 @@
+@media (max-width: 1199px){
+    /*---------------
+        Main styles
+    ---------------*/
+
+    /*---------------
+        Header
+    ---------------*/
+
+    /*---------------
+        Main section
+    ---------------*/
+    .main_section{
+        padding-top: 200px;
+    }
+
+
+    .support .support-line .grid{
+        margin-bottom: -20px;
+        margin-left: -20px;
+    }
+    .support .support-line .grid .item{
+        width: calc(25% - 20px);
+
+        margin-bottom: 20px;
+        margin-left: 20px;
+        padding: 20px 19px;
+    }
+
+
+    .premium .carousel .item{
+        padding: 30px 16px;
+    }
+
+
+    .account .grid{
+        margin-bottom: -20px;
+        margin-left: -20px;
+    }
+    .account .grid .box{
+        width: calc(50% - 20px);
+
+        margin-bottom: 20px;
+        margin-left: 20px;
+    }
+
+    .error-page{
+        padding-top: 100px;
+    }
+    .error-page .copy{
+        margin-top: 50px;
+    }
+
+    /*---------------
+        Footer
+    ---------------*/
+}

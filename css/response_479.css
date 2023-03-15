@@ -1,0 +1,225 @@
+@media (max-width: 479px){
+    /*---------------
+        Main styles
+    ---------------*/
+    :root{
+        --font_size: 16px;
+        --line_height: 24px;
+    }
+
+
+    .main_title {
+        font-size: 24px;
+        line-height: 32px;
+    }
+
+
+    .text_block p, 
+    .text_block ul, 
+    .text_block ol {
+        margin-bottom: 25px;
+    }
+
+
+    .link_btn{
+        display: flex;
+        width: 100%;
+    }
+
+
+    .main_tabs{
+        border: none;
+    }
+    .main_tabs button{
+        width: 100%;
+        text-align: center;
+        justify-content: center;
+        min-height: 31px;
+        border-bottom: 2px solid rgba(0, 37, 97, .05);
+    }
+    .main_tabs button + button{
+        margin-left: 0;
+        margin-top: 20px;
+    }
+
+
+    .form .line_form {
+        margin-bottom: 20px;
+    }
+
+    .submit_btn{
+        display: block;
+        width: 100%;
+    }
+
+    /*---------------
+        Header
+    ---------------*/
+    header .logo{
+        width: 153px;
+    }
+    header .wrap_menu{
+        width: 250px;
+        right: -250px;
+    }
+
+    /*---------------
+        Main section
+    ---------------*/
+    .main_section{
+        padding-top: 122px;
+    }
+    .main_section .info .title {
+        font-size: 50px;
+        line-height: 67px;
+    }
+    .main_section .info .main_title{
+        margin-top: 10px;
+    }
+    .main_section .info .note{
+        font-size: 16px;
+        line-height: 25px;
+    }
+    .main_section .img{
+        width: calc(100% + 40px);
+        margin-left: -20px;
+        margin-right: -20px;
+        margin-top: 30px;
+    }
+
+
+    .gaming-tools .item .info .note{
+        line-height: 25px;
+    }
+    .gaming-tools .item .img{
+        clip-path: polygon(calc(100% - 12px) 0, 100% 12px, 100% 100%, 12px 100%, 0 calc(100% - 12px), 0 0);
+    }
+
+
+    .info-settings .item{
+        width: 100%;
+    }
+    .info-settings .link{
+        width: 100%;
+    }
+
+
+    .applications .grid{
+        margin-bottom: -30px;
+    }
+    .applications .grid .item{
+        width: 100%;
+        margin-bottom: 30px;
+    }
+    .applications .link{
+        width: 100%;
+        margin-bottom: 30px;
+    }
+
+
+    .support .main_tabs{
+        display: none;
+    }
+    .support .select_wrap{
+        display: block;
+    }
+    .support .support-line .grid{
+        margin-bottom: -10px;
+    }
+    .support .support-line .grid .item{
+        width: 100%;
+        margin-bottom: 10px;
+    }
+    .support .support-line .grid .item.disabled{
+        display: none;
+    }
+
+
+    .support-answer{
+        text-align: center;
+    }
+
+
+    .premium .carousel .item{
+        padding: 20px;
+    }
+    .premium .carousel .item .title{
+        font-size: 24px;
+        line-height: 32px;
+    }
+    .premium .carousel .item .desc{
+        padding: 0 15px;
+    }
+
+
+    .payment .icons{
+        margin: 0 auto 20px;
+    }
+    .payment .info{
+        width: 100%;
+        text-align: center;
+    }
+
+
+    .article .main_title{
+        padding-right: 15px;
+    }
+
+
+    .account .box{
+        padding: 20px;
+    }
+    .account .box:before {
+        clip-path: polygon(calc(100% - 15px) 0, 100% 15px, 100% 100%, 15px 100%, 0 calc(100% - 15px), 0 0);
+    }
+    .account .box .title{
+        font-size: 18px;
+        line-height: 24px;
+        width: 100%;
+    }
+    .account .box .links{
+        margin-bottom: -10px;
+    }
+    .account .box .links .link{
+        width: 100%;
+        margin-bottom: 10px;
+    }
+    .account .box .line_flex{
+        margin-bottom: -20px;
+        flex-wrap: wrap;
+        margin-top: 20px;
+    }
+    .account .box .line_flex .line_form,
+    .account .box .line_flex.flex_wrap .line_form{
+        width: 100%;
+        margin-right: 0;
+    }
+    .account .box .line_flex .submit,
+    .account .box .line_flex.flex_wrap .submit{
+        margin-bottom: 20px;
+        width: 100%;
+    }
+
+
+    .error-bg{
+        background-size: 150% auto;
+        background-position: 100% calc(100% - 50px);
+    }
+    .error-page{
+        padding: 30px 0 10px;
+    }
+    .error-page .info .link{
+        margin-top: 20px;
+    }
+    .error-page .copy{
+        margin-top: 300px;
+    }
+
+    /*---------------
+        Footer
+    ---------------*/
+    footer .logo{
+        width: 153px;
+    }
+    
+}
